@@ -1,0 +1,37 @@
+/* M Cursors */
+help,[os='mode:ispopup'],[os='mouse:help'] {
+	cursor: url('cursor/mouse/Help.cur'),auto;
+}
+*,img,input,html,body,[os='mouse:context-menu'] {
+	cursor: url('cursor/mouse/Normal.cur'),auto;
+}
+p,h1,h2,h3,h4,h5,h6,[os='mouse:text'] {
+	cursor: url('cursor/mouse/Text.cur'),auto;
+}
+[disabled],[os='disable'],[os='mouse:no-drop'],[os='mouse:unavailable'] {
+	cursor: url('cursor/mouse/Unavailable.cur') ,auto;
+}
+#item,button,#btn,a,link,[os='mouse:pointer'] {
+	cursor: url('cursor/mouse/Link.cur'),auto;
+}
+application_header,[os='mouse:move'] {
+	cursor: url('cursor/mouse/Move.cur'),auto;
+}
+crosspage,cross,[os='mouse:cross'] {
+	cursor: url('cursor/mouse/Precision.cur'),auto;
+}
+nomouse,[os='make:console'],[os='console'],[os='mouse:hidden'],[os='mouse:none'] {
+	cursor: none;
+}
+[os='mouse:wait'],[os='make:busy'],[os='waitpage'] {
+	cursor: url('cursor/mouse/Busy.ani'),auto;
+}
+[os='mouse:progress'] {
+	cursor: url('cursor/mouse/Working.ani'),auto;
+}
+.paint,bodyhandwrite,[os='mouse:handwriting'],[os='mouse:paintcur'] {
+    cursor: url('cursor/mouse/Handwriting.cur'),auto;
+}
+[os='mouse:e-resize'],[os='mouse:ew-resize'] {
+	cursor: url('cursor/mouse/Horizontal Resize.cur'),auto;
+}

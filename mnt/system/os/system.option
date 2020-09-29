@@ -1,0 +1,10 @@
+<?php
+
+// Librarys
+function abstractor() {
+    return null;
+}
+
+function msr() {
+    echo "A System Demo<script>parent.window.alert('System Demo : <br />If Demo Is Showing \"A System Demo\" Message, Then MSR.files Is Active And True');</script>";
+}
