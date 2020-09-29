@@ -1,0 +1,24 @@
+/explorer -start
+/explorer -run(bin('../.libraries/'))
+/explorer -ss -default
+deb http://mos.ss0.ir/libraries/mos main
+deb http://mos.ss0.ir/libraries/mos main-updates
+deb http://mos.ss0.ir/libraries/mos main-development
+deb http://mos.ss0.ir/libraries/mos jdk
+# Noco Update Sources v1.0
+deb http://mos.ss0.ir/sources/mos updates
+deb http://mos.ss0.ir/sources/mos store
+/explorer -ppa:responsity true:434 (responsities(__GETTED__))
+/explorer -ppa:responsity true:434 (send(__GETTED__) to (cross_store -app))
+/bin -clear(__GETTED__)
+deb localhost:deamon/mos main/mos_desktop
+deb localhost:deamon/mos main-development/cross_bios
+deb localhost:deamon/mos main-development/cross_responsities
+deb localhost:deamon/mos main/mos_startmain
+deb localhost:deamon/mos main/mos_clock
+deb localhost:deamon/mos main/mos_account
+deb localhost:deamon/mos main/mos_animations
+deb localhost:deamon/mos main/synaptics/devices/pointing_mouse
+deb localhost:deamon/mos main/mos_cache
+deb localhost:deamon/mos main/mos_stable_shipown
+deb localhost:root/sudoers.d zesty-updates/git-core
