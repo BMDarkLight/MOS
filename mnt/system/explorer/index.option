@@ -1,0 +1,9 @@
+<?php
+
+function main() {
+
+}
+
+function explorer($conf) {
+    return file_get_contents($conf);
+}

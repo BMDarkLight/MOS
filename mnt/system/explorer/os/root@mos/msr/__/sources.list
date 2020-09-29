@@ -1,0 +1,5 @@
+deb ../.sources/packages main
+deb ../../ php 🔨/gnome-builder main
+deb os -directory os/root@mos system sources mos_services msr_libraries
+deb os -directory os/root@mos syslinux bionic gnu
+deb /explorer/mtp:device[externals]/git:clone gnu 

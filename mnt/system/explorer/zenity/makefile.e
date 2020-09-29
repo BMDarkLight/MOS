@@ -1,0 +1,3 @@
+<?php
+
+exec('make');
