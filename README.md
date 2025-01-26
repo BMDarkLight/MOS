@@ -1,4 +1,4 @@
-# M Edition 5.0 Professional
+# M Edition
 This Project is NOT Complete. and it seems like it is never going to be complete.
 This is more like a time capsule into the past for me than a real project. It is fun to wonder around it or to even run it. I wrote this whole thing back when i was 12 years old so ... Have fun!
 
